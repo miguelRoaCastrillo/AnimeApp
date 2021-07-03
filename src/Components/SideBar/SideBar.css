@@ -1,0 +1,16 @@
+.SideBar{
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #e4e4e4;
+}
+
+.SideBar .title{
+    text-align: center;
+}
+

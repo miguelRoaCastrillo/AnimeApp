@@ -1,0 +1,58 @@
+.thumbnail{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #ffffff;
+    padding-top: 20px;   
+    margin: 5px 10px 10px 5px; 
+    overflow: hidden;   
+    border: 1px solid #e4e4e4; 
+}
+.thumbnail > .containerImageThumb{
+    margin: auto;
+    height: 320px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.thumbnail > .containerImageThumb > img {
+    width: 100%;
+    margin: auto;
+}
+.thumbnail > .containerTextThumb{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail > .containerTextThumb >
+.containerTitleThumb{
+    margin: auto 0 auto 0;
+    height: 65px; 
+    overflow: hidden;   
+}
+.thumbnail > .containerTextThumb >
+.containerTitleThumb > h6{
+    width: 100%;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+.thumbnail > .containerTextThumb >
+.containerType {
+    display: flex;
+    flex-direction: column;    
+    background-color: #49217e;
+    align-items: center;
+    width: 20%;
+    border-radius: 5px;
+}
+.thumbnail > .containerTextThumb >
+.containerType > .type{        
+    color: white;   
+    font-weight: bold;
+    width: 70%;  
+    margin: auto;    
+}

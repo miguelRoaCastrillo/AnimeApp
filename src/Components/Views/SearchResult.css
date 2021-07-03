@@ -1,0 +1,26 @@
+.searchResultsContainer{
+    background-color: #eeeeee;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.searchResultsContainer > .row
+> .col > .SideBar{
+    width: 90% !important;
+}
+.resultsSearch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.resultsSearch > .containerThumb
+> .thumbnail > .containerTextThumb >
+.containerTitleThumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

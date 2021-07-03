@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-menu{
+  background-color: #411777;
+  height: 75px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;  
+  justify-content: flex-end;
+}
+.containerCenterNav{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerLogo{
+  width: 50%;
+  display: flex;
+  flex-direction: row; 
+  text-decoration: none; 
+}
+.containerLogo > a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 34%;  
+}
+.containerLogo > a > img{
+  margin: auto 0 auto 0;
+  width: 100%;
+}
+.containerLogo > a >strong {
+  margin: auto 0 auto 5px;
+}
+.nav-menu > .containerCenterNav > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-menu > .containerCenterNav > nav > ul{
+  width: 60%;
+  margin:auto 0 auto 0;
+  display: flex;
+  justify-content: flex-end;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-menu > .containerCenterNav > nav > ul > li,
+.nav-menu > .containerCenterNav > nav > ul > li > a{
+  list-style: none;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;  
+}
+.footer{
+  color:white;
+  font-weight: bold;
+  background-color: #411777;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.footer > .containerLeftFooter{  
+  height: 80px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.footer > .containerLeftFooter > .copy{  
+  margin: auto auto auto 0;
+}
+.footer > .containerRightFooter{  
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+.footer > .containerRightFooter >
+.socialMedia{  
+  display: flex;
+  flex-direction: row; 
+  margin: auto 0 auto 0; 
+  justify-content: flex-end;
+}
+.footer > .containerRightFooter >
+.socialMedia > .socialIcon{
+  margin: 0 5px 0 5px;
 }

@@ -1,0 +1,31 @@
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    background-color: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.homeContainer > .SideBarContainer{
+    width: 35%;
+}
+.homeContainer > .SeasonLater{
+    display: flex;  
+    flex-direction: column;
+    width: 65%;  
+}
+.resultsHome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%;   
+}
+.containerThumb {
+    width: 30%;
+    margin: 2.5px 15px 2.5px 0px;
+}
+.containerThumb > a {
+    text-decoration: none;
+    color: #181818;
+}

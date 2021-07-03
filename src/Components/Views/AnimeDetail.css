@@ -1,0 +1,17 @@
+.animeDetailContainer{    
+    background-color: #eeeeee;   
+    display: flex;     
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imageContainer > img{
+    margin: auto;
+    border-radius: 10px;
+}
